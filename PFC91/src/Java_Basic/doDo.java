@@ -10,9 +10,9 @@ public class doDo {
 				System.out.print(x);
 			 	y+=2;
 			   	}  while(y<10);
-			   System.out.println();
+			  
 			   }
-
+System.out.print("Hello");
 	}
 
 }
