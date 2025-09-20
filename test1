@@ -1,0 +1,12 @@
+// tests/1_unit-tests.js
+
+suite('Basic Assertions', function() {
+  // #1
+  test('#1: null is null, undefined is not null', function() {
+    assert.isNull(null);
+    assert.isNotNull(undefined);
+    assert.isNotNull('hello');
+    assert.isNotNull(0);
+    assert.isNotNull(false);
+  });
+});
